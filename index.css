@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    width: 0px;
+}
+
+.main{
+    text-align: center;
+    /* display: flex; */
+    background-color: palegoldenrod;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: grey;
+    margin: auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 380px;
+    width: 500px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.box{
+    width: 130px;
+    height: 110px;
+    border-radius: 10px;
+    font-size: 35px;
+    color: red;
+    margin: 3px;
+}
+#Reset{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: aliceblue;
+    
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+.new{
+    width: 600px;
+    height: 150px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px 0px 10px 0px;
+    display: none;
+}
+.new p{
+    width: 200px;
+    background-color: red;
+}
+
+#mess{
+    color: black;
+    font-weight: 700;
+    /* margin-: ; */
+}
+#newgame{
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+
+}
+.rst{
+    width: 600px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
